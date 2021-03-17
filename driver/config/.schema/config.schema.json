@@ -673,6 +673,12 @@
                       "description": "If set to false the password validation fails when the network or the Have I Been Pwnd API is down.",
                       "type": "boolean",
                       "default": true
+                    },
+                    "disable_breaches_check": {
+                      "title": "Disable Breaches Check",
+                      "description": "If set to true the password validation against Have I Been Pwnd API will not be performed.",
+                      "type": "boolean",
+                      "default": false
                     }
                   },
                   "additionalProperties": false
